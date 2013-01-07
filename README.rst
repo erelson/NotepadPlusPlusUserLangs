@@ -5,16 +5,14 @@ This repo stores the xml code for adding syntax highlighting for languages not s
 
 To add one of these, open the .xml file (in Notepad++, right?!), and then open the userDefineLang.xml, and add the new block of xml code, and restart Notepad++.  It should then appear in the bottom section of the Language menu in Notepad++.  You can customize the syntax highlighting via Notepad++'s ``View > User-Defined Dialogue...`` menu option.
 
-If you have no custom syntaxes added yet, you might have to create the file? If so it would look like this:
-
-::
+If you have no custom syntaxes added yet, you might have to create the file? If so it would look like this::
 
 	<NotepadPlus>
 		<UserLang name="AHK Autohotkey" ext="ahk">
 			...
 		</UserLang>
 	</NotepadPlus>
-
+	
 Languages
 -----------
 
@@ -29,3 +27,4 @@ autohotkey_ahk.xml :
 	
 msub.xml :
 	Highlighting for parallel code submission syntax (msub, qsub, ...?).
+
